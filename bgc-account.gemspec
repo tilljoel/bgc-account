@@ -31,8 +31,8 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'minitest-reporters', '~> 0.12.0'
   s.add_development_dependency 'cane',               '~> 2.5.2'
   s.add_development_dependency 'awesome_print',      '~> 1.1.0'
-  s.add_development_dependency 'pry',                '~> 0.9.12'
-  s.add_development_dependency 'pry-debugger',       '~> 0.2.2'
+#  s.add_development_dependency 'pry',                '~> 0.9.12'
+#  s.add_development_dependency 'pry-debugger',       '~> 0.2.2'
   s.add_development_dependency 'rubygems-tasks',     '~> 0.2.4'
 
 end
