@@ -1,0 +1,23 @@
+
+# Avoid methods longer than 30 lines of code
+Documentation:
+  Enabled: false
+
+TrivialAccessors:
+  Enabled: false
+
+CaseEquality:
+  Enabled: false
+
+ConstantName:
+  Enabled: false
+
+MethodLength:
+  Max: 30
+
+ClassLength:
+  Max: 120
+
+AllCops:
+  Excludes:
+  - Rakefile
