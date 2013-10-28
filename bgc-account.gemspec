@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.version       = BGC::Account::VERSION
   s.authors       = ["Joel Larsson"]
   s.email         = ["tilljoel@gmail.com"]
-  s.description   = 'BGC, Bankgirocentralen - swedish bank account numbers, validate and normalize accounts'
-  s.summary       = 'BGC, Bankgirocentralen - swedish bank account numbers, validate and normalize accounts'
+  s.description   = 'BGC, Bankgirocentralen - Swedish bank account numbers, validate and normalize accounts'
+  s.summary       = 'BGC, Bankgirocentralen - Swedish bank account numbers, validate and normalize accounts'
   s.homepage      = 'http://github.com/tilljoel/bgc-account'
   s.license       = "MIT"
   s.files         = `git ls-files`.split("\n")
@@ -20,9 +20,9 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.add_runtime_dependency 'activemodel',        '~> 3.2.13'
-
-  s.add_development_dependency "rake"
-  s.add_development_dependency "bundler",            "~> 1.3"
+  s.add_development_dependency 'rake'
+  s.add_development_dependency 'bundler',            '~> 1.3'
+  s.add_development_dependency 'rubocop',            '~> 0.14.1'
   s.add_development_dependency 'churn',              '~> 0.0.34'
   s.add_development_dependency 'simplecov',          '~> 0.7.1'
   s.add_development_dependency 'mocha',              '~> 0.13.3'
