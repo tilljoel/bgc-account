@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/tilljoel/bgc-account.png?branch=master)](https://travis-ci.org/tilljoel/bgc-account)
 # BGC::Account
 
 Ruby Gem for Swedish account numbers.

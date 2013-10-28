@@ -51,6 +51,6 @@ task :default => :all
 task :all do |t|
   Rake::Task["test"].invoke
   Rake::Task["rubocop"].invoke
-  Rake::Task["quality"].invoke
+  Rake::Task["quality"].invoke if Rake::Task.task_defined?("quality")
 end
 
